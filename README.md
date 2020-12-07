@@ -18,5 +18,6 @@ docker run -d -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" --name e
 -v /<userpath>/elastic/longterm_backups:/mount/longterm_backups minghealtomni/elasticsearch:6.8.2
 ```
 
-# Docker build
-`docker build -t minghealtomni/elasticsearch:6.8.2`
+# Docker image
+Image `minghealtomni/elasticsearch:6.8.2` is public. You do not need any access to download it.
+For admin building, run `docker build -t minghealtomni/elasticsearch:6.8.2`
