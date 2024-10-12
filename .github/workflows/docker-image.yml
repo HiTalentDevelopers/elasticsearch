@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ "main" ]
 env:
-  ES_VER: 8.15.2
+  ES_VER: 8.12.2
   IMAGE_NAME: mingaltomni/elasticsearch
 jobs:
   build:
