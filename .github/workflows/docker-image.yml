@@ -26,6 +26,7 @@ jobs:
         file: Dockerfile
         push: true
         tags: ${{ env.IMAGE_NAME }}:${{ env.ES_VER }}
-        build-args: ES_VER=${{ env.ES_VER }}
+        build-args: |
+          ES_VER=${{ env.ES_VER }}
       env:
         ES_VER: ${{ env.ES_VER }}

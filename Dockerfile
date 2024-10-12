@@ -1,3 +1,4 @@
+ARG ES_VER
 FROM elasticsearch:${ES_VER}
 
 # install plugins
