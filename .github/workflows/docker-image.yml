@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
 env:
   ES_VER: 8.12.2
-  IMAGE_NAME: mingaltomni/elasticsearch
+  IMAGE_NAME: minghealtomni/elasticsearch
 jobs:
   build:
     runs-on: ubuntu-latest
